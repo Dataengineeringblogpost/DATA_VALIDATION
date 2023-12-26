@@ -10,8 +10,8 @@ def main():
 
     sfconn = snowflake.connector.connect(
         user="Dataengineering",
-        password="Karthiksara@2321",
-        account='ojb18183.us-east-1',
+        password="<password>",
+        account='<acc password>',
         warehouse="sample_wh",
     )
 
